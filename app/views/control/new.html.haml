@@ -1,0 +1,10 @@
+%h1
+  Results
+
+%h3
+  =link_to 'back to character', control_index_path
+
+%ol
+  -all.each do |r|
+    %li=r['success'] ? ( r['drop'] || 'none' ): r['message']
+

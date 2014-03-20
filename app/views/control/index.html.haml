@@ -1,0 +1,19 @@
+%h1
+  Control panel
+
+Character:
+%br/
+=char.as_json
+
+%h3
+  Parameters:
+%form{action: new_control_path}
+  Count
+  %br/
+  %input{ name: 'count', value: 200 }
+  %br/
+  Concurency
+  %br/
+  %input{ name: 'concurency', value: 100 }
+  %br/
+  %input{ type: 'submit', text: 'go' }
