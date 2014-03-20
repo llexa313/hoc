@@ -46,3 +46,4 @@ end
 
 gem 'haml'
 gem "typhoeus"
+gem 'rails_12factor', group: :production
